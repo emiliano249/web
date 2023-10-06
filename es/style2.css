@@ -604,7 +604,7 @@ section .title::after {
 .portfolio .title::after,
 .teams .title::after {
   background: #111;
-  content: "Algunos trabajos";
+  content: "categoría";
 }
 
 a {
