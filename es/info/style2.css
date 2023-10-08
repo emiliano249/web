@@ -662,7 +662,7 @@ a {
 
 .pricing-wrapper {
   max-width: 1300px;
-  padding: 0 80px;
+  padding: 0 10px;
   margin: auto;
 }
 
@@ -774,7 +774,7 @@ a {
   float: left;
   color: #37353a;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .table-buy p sup {
