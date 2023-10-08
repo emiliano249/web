@@ -126,6 +126,15 @@ section .titleH2 {
   padding-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
+section .titleH3 {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
 
 section .title::before {
   content: "";
@@ -621,9 +630,9 @@ a {
 }
 
 .pricing-table-title {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
-  font-size: 2.6em;
+  font-size: 40px;
   color: #FFF;
   margin-top: 15px;
   text-align: left;
@@ -632,7 +641,7 @@ a {
 }
 
 .pricing-table-title a {
-  font-size: 0.6em;
+  font-size: 40px;
 }
 
 .clearfix:after {
@@ -666,7 +675,7 @@ a {
 .pricing-table {
   margin: 0 10px;
   text-align: center;
-  width: 300px;
+  width: 350px;
   float: left;
   -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
@@ -686,29 +695,29 @@ a {
   color: #FFF;
   background: #e95846;
   padding: 20px 0;
-  font-size: 2em;
+  font-size: 40px;
   text-transform: uppercase;
   text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
 .pricing-table.recommended .pricing-title {
-  background: #2db3cb;
+  background: #4280eb;
 }
 
 .pricing-table.recommended .pricing-action {
-  background: #2db3cb;
+  background: #4280eb;
 }
 
 .pricing-table .price {
   background: #403e3d;
-  font-size: 3.4em;
+  font-size: 50px;
   font-weight: 700;
-  padding: 20px 0;
+  padding: 15px 0;
   text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
 .pricing-table .price sup {
-  font-size: 0.4em;
+  font-size: 60px;
   position: relative;
   left: 5px;
 }
@@ -719,7 +728,7 @@ a {
 }
 
 .table-list li {
-  font-size: 1.4em;
+  font-size: 18px;
   font-weight: 700;
   padding: 12px 8px;
 }
@@ -741,7 +750,7 @@ a {
 .table-list li span.unlimited {
   color: #FFF;
   background: #e95846;
-  font-size: 0.9em;
+  font-size: 50px;
   padding: 5px 7px;
   display: inline-block;
   -webkit-border-radius: 38px;
@@ -765,11 +774,11 @@ a {
   float: left;
   color: #37353a;
   font-weight: 700;
-  font-size: 2.4em;
+  font-size: 30px;
 }
 
 .table-buy p sup {
-  font-size: 0.5em;
+  font-size: 18px;
   position: relative;
   left: 5px;
 }
@@ -783,7 +792,7 @@ a {
   -moz-border-radius: 2px;
   border-radius: 2px;
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 20px;
   text-shadow: 0 1px 1px rgba(0,0,0,0.4);
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
@@ -806,19 +815,19 @@ a {
     width: 768px;
   }
 
-  .pricing-table {
+  /* .pricing-table {
     width: 236px;
-  }
+  } */
   
   .table-list li {
-    font-size: 1.3em;
+    font-size: 18px;
   }
 
  }
 
  @media only screen and (max-width: 767px) {
   .pricing-wrapper {
-    width: 420px;
+    width: 480px;
   }
 
   .pricing-table {
@@ -829,8 +838,8 @@ a {
   }
  }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
   .pricing-wrapper {
-    width: 300px;
+    width: 480px;
   }
 } 
