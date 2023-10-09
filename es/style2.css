@@ -91,7 +91,9 @@ section {
 .services,
 .skills,
 .portfolio,
+.teams,
 .contact,
+
 footer {
   font-family: "Poppins", sans-serif;
 }
@@ -604,7 +606,7 @@ section .title::after {
 .portfolio .title::after,
 .teams .title::after {
   background: #111;
-  content: "categorías";
+  content: "categoría";
 }
 
 a {
@@ -735,6 +737,85 @@ headerEMI .categorias a.activo {
     width: calc(50% - 20px);
   }
 }
+
+
+
+/* testimonios section styling */
+.teams .title::after {
+  content: "lo que dicen";
+}
+
+.teams .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover {
+  background: #4280eb;
+}
+
+.teams .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #4280eb;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+  border-color: #fff;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #4280eb !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: #4280eb !important;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # fin Portfolio
