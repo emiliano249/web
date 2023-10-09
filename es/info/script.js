@@ -43,7 +43,7 @@ $(document).ready(function(){
   });
 
   var typed = new Typed(".typing-2", {
-      strings: ["Diseñador gráfico y visual","Diseñador y desarrollador WEB","Animador 2D","Freelancer"],
+      strings: ["Tener en cuenta","1 Dominio","2 Hosting o alojamiento web","3 Diseño y desarrollo del sitio"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true

@@ -257,7 +257,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("../../images/banner.jpg") no-repeat center;
+  background: url("../../images/banner2.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -418,7 +418,7 @@ section .title::after {
 }
 
 .about .about-content .right p {
-  text-align: justify;
+  text-align: left;
 }
 
 .about .about-content .right a {
@@ -465,7 +465,7 @@ a {
   width: 60px;
   height: 60px;
   line-height: 63px;
-  bottom: 80px;
+  bottom: 25px;
   right: 25px;
   background: #25d366;
   color: #fff;
