@@ -739,7 +739,7 @@ headerEMI .categorias a.activo {
 
 /* testimonios section styling */
 .teams .title::after {
-    content: "What my clients say";
+    content: "opinions";
 
   }
   
