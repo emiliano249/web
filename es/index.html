@@ -61,8 +61,8 @@
 
 </head>
 
-<link rel="stylesheet" type="text/css"
-  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<!-- <link rel="stylesheet" type="text/css"
+  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /> -->
 <!-- para las cookies https://www.osano.com/cookieconsent/download/  -->
 
 
@@ -977,6 +977,27 @@
   <!-- codigo para enviar email con emailjs.com -->
   <script src="index.js"></script>
 
+
+
+  <audio id="clickSound">
+    <source src="../images/sonido.mp3" type="audio/mpeg">
+  </audio>
+  
+  <script>
+    // Function to play the click sound
+    function playClickSound() {
+      var clickSound = document.getElementById("clickSound");
+      clickSound.currentTime = 0; // Reset the audio to the beginning
+      clickSound.play();
+    }
+  
+    // Add a click event listener to all links
+    var links = document.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", playClickSound);
+    }
+  </script>
+
 </body>
 
 
@@ -1001,7 +1022,7 @@
       "message": "This website uses cookies to ensure you get the best experience on my web."
     }
   }); -->
-</script>
+<!-- </script> -->
 
 
 
