@@ -63,8 +63,8 @@
 
 </head>
 
-<link rel="stylesheet" type="text/css"
-  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<!-- <link rel="stylesheet" type="text/css"
+  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /> -->
 <!-- para las cookies https://www.osano.com/cookieconsent/download/  -->
 
 
@@ -91,7 +91,7 @@
         <li><a href="#about" class="menu-btn">Cuanto cuesta una web</a></li>
 
       </ul>
-      <div class="menu-btn">
+      <div class="menu-btn" onmousedown="playClickSound()">
         <i class="fas fa-bars"></i>
       </div>
     </div>
@@ -133,7 +133,7 @@
             <div class="content">
               <img src="../../images/logoEMI500px.png" alt="" />
               <img src="../../images/sitioWEB.png" alt="" class="fotoAdelante" />
- 
+
             </div>
           </div>
 
@@ -155,7 +155,8 @@
             según el tipo de sitio pero un buen servicio estaría entre los AR$25.000 $ – 50.000 anuales.
             <br><br>
             3 Diseño y desarrollo del sitio: esto también depende según el tipo de sitio que se quiera construir, te
-            invito a ver mis planes y precios de sitios web.<a href="https://emilianoesteban.ar/es/info/precios.html">Plaes y Precios</a>
+            invito a ver mis planes y precios de sitios web.<a
+              href="https://emilianoesteban.ar/es/info/precios.html">Plaes y Precios</a>
           </p>
           <!-- <a href="../images/Curriculum-Emiliano-Esteban.pdf" target="_blank">Descargar Curriculum</a> -->
         </div>
@@ -202,6 +203,24 @@
   <script src="main.js"></script>
 
 
+  <audio id="clickSound">
+    <source src="../../images/sonido.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Function to play the click sound
+    function playClickSound() {
+      var clickSound = document.getElementById("clickSound");
+      clickSound.currentTime = 0; // Reset the audio to the beginning
+      clickSound.play();
+    }
+
+    // Add a click event listener to all links
+    var links = document.getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", playClickSound);
+    }
+  </script>
 
 </body>
 
@@ -227,7 +246,7 @@
       "message": "This website uses cookies to ensure you get the best experience on my web."
     }
   }); -->
-</script>
+<!-- </script> -->
 
 
 
