@@ -105,7 +105,7 @@
 
         <div>
           <span class="en">English</span>
-          <input type="checkbox" class="check"  onmousedown="playClickSound()">
+          <input type="checkbox" class="check" onmousedown="playClickSound()">
           <span class="es">Español</span>
         </div>
 
@@ -342,6 +342,15 @@
         </headerEMI>
 
         <section class="grid" id="grid">
+
+          <div class="item" data-categoria="websites" data-etiquetas="ciudades autos carros calles"
+            data-descripcion="8.- Click on the link to open.">
+            <div class="item-contenido">
+              <img src="img/goma.jpg" alt="" />
+            </div>
+            <p><a href="https://gomapacheco.com.ar/" style="color:white" target="_blank">WEB- Goma-
+              Open in new tab</a></p>
+          </div>
 
           <div class="item" data-categoria="websites" data-etiquetas="ciudades autos carros calles"
             data-descripcion="8.- Click on the link to open.">
@@ -1027,7 +1036,7 @@
   <audio id="clickSound">
     <source src="images/sonido.mp3" type="audio/mpeg">
   </audio>
-  
+
   <script>
     // Function to play the click sound
     function playClickSound() {
@@ -1035,7 +1044,7 @@
       clickSound.currentTime = 0; // Reset the audio to the beginning
       clickSound.play();
     }
-  
+
     // Add a click event listener to all links
     var links = document.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
