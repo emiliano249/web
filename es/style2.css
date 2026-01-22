@@ -553,11 +553,11 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-  width: 95%;
+  width: 100%;
 }
 
 .skills-content .right .css::before {
-  width: 90%;
+  width: 100%;
 }
 
 .skills-content .right .js::before {
@@ -569,7 +569,7 @@ section .title::after {
 }
 
 .skills-content .right .wordp::before {
-  width: 90%;
+  width: 100%;
 }
 
 .skills-content .right .actions::before {
@@ -581,11 +581,11 @@ section .title::after {
 }
 
 .skills-content .right .php::before {
-  width: 55%;
+  width: 100%;
 }
 
 .skills-content .right .mysql::before {
-  width: 65%;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -791,7 +791,7 @@ headerEMI .categorias a.activo {
 
 .owl-dots {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .owl-dot {
