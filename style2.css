@@ -522,37 +522,46 @@ section .title::after{
     top: 0;
     background: #325eaa;
 }
-.skills-content .right .UX::before{
-    width: 100%;
-}
-.skills-content .right .html::before{
-    width: 95%;
-}
-.skills-content .right .css::before{
-    width: 90%;
-}
-.skills-content .right .js::before{
-    width: 75%;
-}
-.skills-content .right .react::before{
-    width: 65%;
-}
-.skills-content .right .wordp::before{
-    width: 90%;
+.skills-content .right .UX::before {
+  width: 100%;
 }
 
-.skills-content .right .actions::before{
-    width: 90%;
+.skills-content .right .html::before {
+  width: 100%;
 }
-.skills-content .right .node::before{
-    width: 70%;
+
+.skills-content .right .css::before {
+  width: 100%;
 }
-.skills-content .right .php::before{
-    width: 55%;
+
+.skills-content .right .js::before {
+  width: 75%;
 }
-.skills-content .right .mysql::before{
-    width: 65%;
+
+.skills-content .right .react::before {
+  width: 65%;
 }
+
+.skills-content .right .wordp::before {
+  width: 100%;
+}
+
+.skills-content .right .actions::before {
+  width: 90%;
+}
+
+.skills-content .right .node::before {
+  width: 70%;
+}
+
+.skills-content .right .php::before {
+  width: 100%;
+}
+
+.skills-content .right .mysql::before {
+  width: 100%;
+}
+
 
 
 
